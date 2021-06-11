@@ -1,4 +1,5 @@
-name: Build
+name: code coverage
+
 on:
   push:
     branches: [ master, develop ] 
@@ -7,7 +8,6 @@ on:
 
 jobs:
   build:
-    name: Build
     runs-on: windows-latest
     defaults:
       run:
